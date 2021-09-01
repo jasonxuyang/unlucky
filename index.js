@@ -40,7 +40,7 @@ const login = () => {
 
 const chooseUser = event => {
     if (unchosen.length > 0) {
-        const die = Math.floor(Math.random()) * unchosen.length;
+        const die = Math.floor(Math.random() * unchosen.length);
         let unluckyPerson = unchosen.splice(die, 1);
         chosen.push(unluckyPerson[0]);
         console.log(chosen.toString());
