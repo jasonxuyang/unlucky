@@ -1,7 +1,7 @@
 ## Unlucky
 Chooses the most unlucky teammate to present first at our weekly design showcase.
 
-![Image](https://github.com/jasonxuyang/unlucky/blob/master/cover.png)
+![screenshot of landing page](https://github.com/jasonxuyang/unlucky/blob/master/cover.png)
 
 ## Todo
 - Connect to server-authoratative backend
