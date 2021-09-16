@@ -1,7 +1,7 @@
 const validUsers = [
-    'jason', 
-    'singer', 
-    'yasmine', 
+    'jason',
+    'singer',
+    'yasmine',
     'jackson c',
     'xiao',
     'beverly',
@@ -43,7 +43,6 @@ const chooseUser = event => {
         const die = Math.floor(Math.random() * unchosen.length);
         let unluckyPerson = unchosen.splice(die, 1);
         chosen.push(unluckyPerson[0]);
-        console.log(chosen.toString());
         if (!body.contains(document.querySelector('#text'))) {
             body.insertAdjacentHTML('afterbegin', `<p id='text'>sorry ${unluckyPerson}...`)
         } else {
