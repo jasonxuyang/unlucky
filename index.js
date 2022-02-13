@@ -1,15 +1,13 @@
 const validUsers = [
     'jason',
     'singer',
-    'yasmine',
-    'jackson c',
-    'xiao',
-    'beverly',
     'phoebe',
     'kd',
     'coltrain',
-    'jackson l',
-    'karis'
+    'karis',
+    'afonso',
+    'sacchit',
+    'kimberly'
 ];
 const unchosen = [...validUsers];
 const chosen = [];
